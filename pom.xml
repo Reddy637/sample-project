@@ -22,6 +22,6 @@
    </dependency>
   </dependencies>
   <build> 
-    <finalName>JenkinsWar</finalName>
+    <finalName>Facebook</finalName>
   </build>
 </project>
