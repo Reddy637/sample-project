@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>com.jenkins.demo</groupId>
   <artifactId>JenkinsWar</artifactId>
-  <packaging>war</packaging>
+  <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
   <name>JenkinsWar Maven Webapp</name>
   <url>http://maven.apache.org</url>
@@ -16,7 +16,7 @@
     </dependency>
     <dependency>
      <groupId>org.apache.maven.plugins</groupId>
-     <artifactId>maven-war-plugin</artifactId>
+     <artifactId>maven-jar-plugin</artifactId>
      <version>3.8.4</version>
      <type>maven-plugin</type>
     </dependency>
