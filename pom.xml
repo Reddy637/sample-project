@@ -22,6 +22,6 @@
    </dependency>
   </dependencies>
   <build> 
-    <finalName>Facebook</finalName>
+    <finalName>REMO</finalName>
   </build>
 </project>
