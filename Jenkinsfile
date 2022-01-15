@@ -2,9 +2,13 @@ node
 {
    checkout scm
  
-   stage ('Package')
+   stage ('Validate')
    { 
-      bat 'mvn clean package'    
+      bat 'mvn validate'    
+   }
+   stage ('Package')
+   {
+   bat 'mvn clean install'
    }
    stage ('site')
    {
